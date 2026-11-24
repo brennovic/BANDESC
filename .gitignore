@@ -1,3 +1,22 @@
-"node_modules/" 
-"dist/" 
-"node_modules/" 
+# Dependências e builds
+node_modules/
+dist/
+dist-ssr/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Logs e caches
+*.log
+npm-debug.log*
+.vite/
+coverage/
+
+# Editores e SO
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
